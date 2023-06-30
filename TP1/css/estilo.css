@@ -1,0 +1,219 @@
+/* configurações gerais   */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+  
+  html {
+    font-size: 10px;
+    background-color: #e8d3b6;
+  }
+  
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* tipografia   */
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+  h1, h2, h3 {
+    font-family: 'Arial';
+    color: #2a2a2a;
+  }
+  
+  p, input, li {
+    font-family: sans-serif;
+    color: #2a2a2a;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: Luminari, sans-serif;                                    
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  figcaption{
+    font-size: 1.3rem
+  }
+
+  /* layout do cabeçalho */
+  nav, article, aside, footer {
+    background-color: white;
+    padding: 2%;
+    
+  }
+
+  nav li {
+    padding-right: 70px;
+    display: inline;
+    text-align: center;
+    flex: 1;
+    width: 25%;
+  }
+
+  nav ul{
+    width:100%;
+  }
+
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align:center;
+  }
+
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+
+
+  nav {
+    height: 50px;
+    flex: 1;
+    background-color: #a87e1d;
+    
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+
+  /* layout do conteúdo principal */
+  main {
+    display: flex;
+  }
+
+  article {
+    flex: 3;
+  }
+
+  .poema{
+    text-align: justify;
+    margin: 0 auto;
+    width: 30em;
+    text-align:center;
+  }
+
+  .titulo_poema{
+    text-align:center;
+  }
+
+  .autor{
+    text-align:center;
+    font-size: 1.6rem;
+  }
+
+  figure#FernandoPessoa img{
+    width: 200px;
+    height: 300px;
+  }
+
+  figure#FernandoPessoa figcaption{
+    font-size: 1.4rem;
+  }
+
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #00ff11;
+    
+  }
+
+  aside li {
+    padding-bottom: 10px;
+    display: flex;
+    margin-left: auto;
+  }
+
+  aside ul {
+    padding: 14%;
+    
+  }
+
+  aside li a{
+    width: 115px;
+    height: auto;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 25px;
+    
+  }
+
+
+  div.voltar{
+    position:relative;
+    padding-top: 100px;
+  }
+
+  div.voltar a{
+    position:relative;
+    padding-top: 100px;
+    
+    width: 115px;
+    height: 20px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 1.5rem;
+  }
+
+  footer {
+    margin-top: 10px;
+  }
+
+  section li a{
+    width: 115px;
+    height: auto;
+    background: #d21b1b;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 25px;
+    flex: 1;
+  }
+
+  section ul{
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  section li {
+    padding-bottom: 10px;
+    display: flex;
+    position: relative;
+    right: 45px;
+    text-align: left;
+    
+  }
+
+  blockquote.citacao{
+    font-size: 1.6em;
+  }
